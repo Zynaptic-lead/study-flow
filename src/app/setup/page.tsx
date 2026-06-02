@@ -46,7 +46,7 @@ function SetupWizard() {
   const router = useRouter();
 
   const markComplete = (step: number) => {
-    setCompleted((prev) => [...new Set([...prev, step])]);
+    setCompleted((prev) => Array.from(new Set([...prev, step])));
   };
 
   const handleFinish = () => {
