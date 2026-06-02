@@ -2,10 +2,7 @@
 import { useState } from 'react';
 import { useAuth } from '@/lib/auth';
 import { useRouter, usePathname } from 'next/navigation';
-import {
-  GraduationCap, Users, BookOpen, Clock, LogOut, Building2, Layers, Calendar,
-  Bell, LayoutDashboard, Menu, X, School, ChevronRight, UserPlus,
-} from 'lucide-react';
+import { GraduationCap, LogOut, Menu, X } from 'lucide-react';
 
 interface MenuItem {
   label: string;

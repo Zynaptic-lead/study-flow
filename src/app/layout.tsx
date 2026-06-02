@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { AuthProvider } from '@/lib/auth';
 import { ToasterProvider } from '@/components/ui/Toaster';
-//@ts-ignore
 import './globals.css';
 
 export const metadata: Metadata = {
